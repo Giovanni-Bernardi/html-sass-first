@@ -15,12 +15,13 @@ body {
   color: white;
   min-height: 50vh;
   text-align: center;
+  padding-top: 20px;
 }
 .container .center {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 20px;
+  margin: 5% 20%;
 }
 .container .center button {
   background-color: black;

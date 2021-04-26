@@ -24,12 +24,13 @@ body {
   color: $text-colors-w;
   min-height: 50vh;
   text-align: center;
+  padding-top: $p-20;
 
   .center {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: $m-20;
+    margin: 5% 20%;
 
     button {
       background-color: $button-black;
