@@ -1,0 +1,42 @@
+/* GENERAL RULES */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* MAIN */
+body {
+  background-color: orangered;
+}
+
+.container {
+  background-color: sandybrown;
+  color: white;
+  width: 100vh;
+  margin: 0 auto;
+
+  .center {
+    display: flex;
+    align-items: center;
+
+    button {
+      background-color: tomato;
+      color: white;
+      font-size: medium;
+      padding: 10px;
+      border-radius: 20px;
+    }
+
+    h1 {
+      color: white;
+      text-align: center;
+    }
+
+    p {
+        color: black;
+      padding: 10px;
+      inline-size: fit-content;
+    }
+  }
+}
