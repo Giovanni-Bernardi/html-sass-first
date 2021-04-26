@@ -5,37 +5,48 @@
   box-sizing: border-box;
 }
 
+// VARIABLES
+$primary-color: tomato;
+$secondary-color: sandybrown;
+$text-colors-w: white;
+$text-colors-b: black;
+$button-black: black;
+$p-20: 20px;
+$m-20: 20px;
+
 /* MAIN */
 body {
-  background-color: orangered;
+  background-color: $primary-color;
 }
 
 .container {
-  background-color: sandybrown;
-  color: white;
-  width: 100vh;
-  margin: 0 auto;
+  background-color: $secondary-color;
+  color: $text-colors-w;
+  min-height: 50vh;
+  text-align: center;
 
   .center {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: $m-20;
 
     button {
-      background-color: tomato;
-      color: white;
+      background-color: $button-black;
+      color: $text-colors-w;
       font-size: medium;
-      padding: 10px;
       border-radius: 20px;
+      padding: 10px;
     }
 
     h1 {
-      color: white;
+      color: $text-colors-w;
       text-align: center;
     }
 
     p {
-        color: black;
-      padding: 10px;
+      color: $text-colors-b;
+      padding: $p-20;
       inline-size: fit-content;
     }
   }

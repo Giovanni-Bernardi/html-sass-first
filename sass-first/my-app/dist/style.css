@@ -7,25 +7,27 @@
 
 /* MAIN */
 body {
-  background-color: orangered;
+  background-color: tomato;
 }
 
 .container {
   background-color: sandybrown;
   color: white;
-  width: 100vh;
-  margin: 0 auto;
+  min-height: 50vh;
+  text-align: center;
 }
 .container .center {
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
 }
 .container .center button {
-  background-color: tomato;
+  background-color: black;
   color: white;
   font-size: medium;
-  padding: 10px;
   border-radius: 20px;
+  padding: 10px;
 }
 .container .center h1 {
   color: white;
@@ -33,7 +35,7 @@ body {
 }
 .container .center p {
   color: black;
-  padding: 10px;
+  padding: 20px;
   inline-size: -webkit-fit-content;
   inline-size: -moz-fit-content;
   inline-size: fit-content;
